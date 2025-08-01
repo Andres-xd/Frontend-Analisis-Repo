@@ -6,7 +6,7 @@ import 'react-calendar/dist/Calendar.css';
 import './Calendario.css';
 import fondoLogin from '../assets/images/fondo_login.png';
 
-// Requerido por react-modal
+// Requerido por react-modal pa que amarre
 Modal.setAppElement('#root');
 
 const citasSimuladas = [
