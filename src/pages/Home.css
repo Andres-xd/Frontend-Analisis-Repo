@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+.home-page {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.home-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  text-align: center;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+}
+
+.home-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.home-role {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.button-group button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #f1d87c;
+}
+
+.logout-button {
+  background: transparent;
+  border: 1px solid #fff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d4af37;
+  color: black;
+  border-color: #d4af37;
+}

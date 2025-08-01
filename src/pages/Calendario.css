@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+.calendario-page {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.calendario-container {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  width: 100%;
+  max-width: 1000px;
+}
+
+.react-calendar {
+  width: 100%;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.react-calendar__tile {
+  height: 100px !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.react-calendar__tile--active {
+  background-color: rgba(212, 175, 55, 0.4) !important;
+  color: #fff;
+}
+
+.react-calendar__tile abbr {
+  font-weight: bold;
+}
+
+.react-calendar__navigation button {
+  font-size: 1.2rem;
+  color: #d4af37;
+}
+
+.react-calendar__month-view__days__day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.punto-cita {
+  font-size: 20px;
+  color: #d4af37;
+  line-height: 0;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  color: white;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  background: #fff;
+  color: #000;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #d4af37;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal-content button:hover {
+  background-color: #f1d87c;
+}
+
+/* === MODAL CENTRADO Y ESTILIZADO === */
+
+.overlay-premium {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-premium {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 550px;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+/* Estilo de inputs internos del modal */
+.modal-premium input,
+.modal-premium textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  background: #fff;
+  color: #000;
+}
+
+.modal-premium button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: #d4af37;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal-premium button:hover {
+  background-color: #f1d87c;
+}

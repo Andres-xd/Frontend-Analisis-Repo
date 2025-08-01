@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+.agendar-page {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.agendar-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px 50px; /* ← más espacio lateral */
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  box-sizing: border-box; /* evita que se salga del contenedor */
+}
+
+
+.agendar-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #d4af37;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.agendar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px; /* aqui se ajustan las celdas csm */
+}
+
+.agendar-form input,
+.agendar-form textarea,
+.agendar-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+}
+
+.agendar-form input:focus,
+.agendar-form textarea:focus,
+.agendar-form select:focus {
+  border-color: #f1d87c;
+  box-shadow: 0 0 5px #d4af37;
+}
+
+.agendar-button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #d4af37;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.agendar-button:hover {
+  background-color: #f1d87c;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
