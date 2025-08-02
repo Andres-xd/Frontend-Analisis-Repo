@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+.user-page {
+  font-family: 'Poppins', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.user-container {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  max-width: 700px;
+  width: 100%;
+}
+
+.user-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #d4af37;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-warning {
+  margin-top: 15px;
+  font-style: italic;
+  color: #ffaaaa;
+}
+
+.user-list {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.user-form input,
+.user-form select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+}
+
+.user-form button {
+  padding: 10px 20px;
+  background-color: #d4af37;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.user-form button:hover {
+  background-color: #f1d87c;
+}

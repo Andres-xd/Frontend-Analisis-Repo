@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+/* ============= RESETEO GENERAL ============= */
+* {
+  box-sizing: border-box;
+  transition: all 0.25s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+/* ============= TIPOGRAFÍAS ============= */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: #d4af37;
+}
+
+/* ============= BOTÓN PRINCIPAL ============= */
+.btn-principal {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn-principal:hover {
+  background-color: #f1d87c;
+}
+
+/* ============= CONTENEDOR PREMIUM ============= */
+.contenedor-premium {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ============= INPUTS Y FORMULARIOS ============= */
+input, select, textarea {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #d4af37;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #f1d87c;
+  box-shadow: 0 0 5px #d4af37;
+}
+
+/* ============= MODAL ANIMADO ============= */
+.modal-animado {
+  animation: aparecer 0.3s ease-out;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

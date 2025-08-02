@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+.reporte-page {
+  font-family: 'Poppins', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+.reporte-container {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  max-width: 800px;
+  width: 100%;
+}
+
+.reporte-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #d4af37;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.reporte-btn {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.reporte-btn:hover {
+  background-color: #f1d87c;
+}
+
+.reporte-box {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 10px;
+}

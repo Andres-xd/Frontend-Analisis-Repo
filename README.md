@@ -139,3 +139,84 @@ pagina-web-analisis
    └─ utils
 
 ```
+```
+FRONTEND ANALISIS
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ logo192.png
+│  ├─ logo512.png
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+└─ src
+   ├─ App.css
+   ├─ App.js
+   ├─ assets
+   │  └─ images
+   │     ├─ fondo_home.png
+   │     └─ fondo_login.png
+   ├─ components
+   ├─ context
+   │  └─ AuthContext.jsx
+   ├─ index.js
+   ├─ pages
+   │  ├─ Agendar.css
+   │  ├─ Agendar.jsx
+   │  ├─ Calendario.css
+   │  ├─ Calendario.jsx
+   │  ├─ Home.css
+   │  ├─ Home.jsx
+   │  ├─ Login.css
+   │  ├─ Login.jsx
+   │  ├─ Reporte.jsx
+   │  └─ User.jsx
+   ├─ routes
+   ├─ services
+   └─ utils
+
+```
+```
+FRONTEND ANALISIS
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ logo192.png
+│  ├─ logo512.png
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+└─ src
+   ├─ App.css
+   ├─ App.js
+   ├─ assets
+   │  └─ images
+   │     ├─ fondo_home.png
+   │     └─ fondo_login.png
+   ├─ components
+   ├─ context
+   │  └─ AuthContext.jsx
+   ├─ index.js
+   ├─ pages
+   │  ├─ Agendar.css
+   │  ├─ Agendar.jsx
+   │  ├─ Calendario.css
+   │  ├─ Calendario.jsx
+   │  ├─ EstiloGlobal.css
+   │  ├─ Home.css
+   │  ├─ Home.jsx
+   │  ├─ Login.css
+   │  ├─ Login.jsx
+   │  ├─ Reporte.css
+   │  ├─ Reporte.jsx
+   │  ├─ User.css
+   │  └─ User.jsx
+   ├─ routes
+   ├─ services
+   └─ utils
+
+```
