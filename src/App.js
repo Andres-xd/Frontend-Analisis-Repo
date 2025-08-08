@@ -1,6 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Login from './pages/Login';
 import Home from './pages/Home';
@@ -8,6 +7,7 @@ import User from './pages/User';
 import Calendario from './pages/Calendario';
 import Reporte from './pages/Reporte';
 import Agendar from './pages/Agendar';
+import RegistrarCliente from './pages/RegistrarCliente'; // ✅ IMPORTA EL FORM
 
 function App() {
   return (
@@ -18,6 +18,9 @@ function App() {
       <Route path="/calendario" element={<Calendario />} />
       <Route path="/reporte" element={<Reporte />} />
       <Route path="/agendar" element={<Agendar />} />
+      <Route path="/registrar-cliente" element={<RegistrarCliente />} />
+      {/* (Opcional) redirige cualquier ruta desconocida */}
+      <Route path="*" element={<Navigate to="/inicio" replace />} />
     </Routes>
   );
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
 
+/* === ESTILOS GENERALES DE PÁGINA === */
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   color: white;
 }
 
+/* === FONDO COMPLETO CON IMAGEN === */
 .login-page {
   display: flex;
   justify-content: center;
@@ -19,26 +21,32 @@ body {
   background-repeat: no-repeat;
 }
 
+/* === CONTENEDOR DEL FORMULARIO === */
 .login-container {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.12); /* fondo translúcido */
   border: 1px solid rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px); /* efecto glass */
   border-radius: 15px;
   padding: 40px;
   width: 320px;
   color: #ffffff;
   box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+  text-align: center; /* CENTRAR TODO el contenido (título y botón) */
 }
 
+/* === TÍTULO === */
 .login-title {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   color: #000000;
   margin-bottom: 30px;
+  text-transform: uppercase;  /* convierte a MAYÚSCULAS */
+  text-align: center;
 }
 
+/* === CAMPOS DE ENTRADA === */
 .login-input {
-  width:92%;
+  width: 92%;
   padding: 12px;
   margin: 10px 0;
   border: 1px solid #d4af37;
@@ -52,6 +60,7 @@ body {
   box-shadow: 0 0 5px #d4af37;
 }
 
+/* === BOTÓN === */
 .login-button {
   width: 100%;
   padding: 12px;

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+/* ===== Página con el MISMO fondo premium que Agendar ===== */
+.regcli-page {
+  min-height: 100vh;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+
+  /* Fondo premium negro/dorado (ajusta la ruta si difiere) */
+  background-image: url('../assets/images/fondo_login.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ===== Contenedor oscuro translúcido con blur ===== */
+.regcli-container {
+  width: 100%;
+  max-width: 860px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 40px 50px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  box-sizing: border-box;
+}
+
+/* ===== Botones superiores (dorado) ===== */
+.regcli-top-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.regcli-top-buttons button,
+.regcli-top-buttons a {
+  display: inline-block;
+  padding: 10px 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #d4af37; /* dorado */
+  color: #000;
+  transition: background .2s ease, transform .05s ease;
+  box-shadow: 0 3px 0 rgba(0,0,0,.25);
+}
+
+.regcli-top-buttons button:hover,
+.regcli-top-buttons a:hover {
+  background-color: #f1d87c;
+}
+.regcli-top-buttons button:active,
+.regcli-top-buttons a:active { transform: translateY(1px); }
+
+/* ===== Título en dorado serif ===== */
+.regcli-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #d4af37;
+  margin: 8px 0 22px;
+}
+
+/* ===== Formulario ===== */
+.regcli-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.campo { display: flex; flex-direction: column; gap: 6px; }
+.campo label { color: #f2f2f2; font-weight: 600; }
+
+/* Inputs blancos como en Agendar */
+.regcli-form input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #000000;
+  outline: none;
+  transition: box-shadow .2s ease, border-color .2s ease;
+}
+
+.regcli-form input:focus {
+  border-color: #f1d87c;
+  box-shadow: 0 0 6px #d4af37;
+}
+
+/* Errores */
+.con-error input { border-color: #ff6b6b !important; }
+.error-text {
+  color: #ffb3b3;
+  font-size: 12px;
+  margin-top: -2px;
+}
+
+/* ===== Botón principal dorado ===== */
+.regcli-button {
+  margin-top: 8px;
+  width: 100%;
+  padding: 12px 14px;
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #d4af37;
+  box-shadow: 0 10px 24px rgba(212, 175, 55, .25);
+  transition: background .2s ease, transform .05s ease, filter .2s ease;
+}
+.regcli-button:hover { background-color: #f1d87c; }
+.regcli-button:active { transform: translateY(1px); }
+.regcli-button:disabled { opacity: .6; cursor: not-allowed; }
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .regcli-container { padding: 28px 20px; }
+}

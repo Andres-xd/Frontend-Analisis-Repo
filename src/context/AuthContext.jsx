@@ -1,4 +1,4 @@
-// src/context/AuthContext.jsx
+
 import React, { createContext, useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
   const navigate = useNavigate();
 
   const login = (usuarioInput, contrasenaInput) => {
-    // Simulación de usuarios
+    // USUARIOS
     const usuariosSimulados = [
       { usuario: 'admin', contrasena: '1234', rol: 'admin' },
       { usuario: 'super', contrasena: '1234', rol: 'superadmin' },
