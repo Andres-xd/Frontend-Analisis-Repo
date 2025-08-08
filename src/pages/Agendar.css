@@ -193,10 +193,10 @@
 }
 
 .btn-registrar-cliente {
-  background-color: #4CAF50; /* verde */
+  background-color: #d4af37; /*doradito*/
   color: white;
 }
 
 .btn-registrar-cliente:hover {
-  background-color: #45a049;
+  background-color: #f1d87c;
 }

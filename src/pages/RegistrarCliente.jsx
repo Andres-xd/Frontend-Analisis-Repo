@@ -68,7 +68,7 @@ const RegistrarCliente = () => {
             className="btn-inicio"
             onClick={() => navigate('/inicio')}
           >
-            🏠 Inicio
+            Inicio
           </button>
 
           <button
@@ -76,7 +76,7 @@ const RegistrarCliente = () => {
             className="btn-cita"
             onClick={() => navigate('/agendar')}
           >
-            ➕ Registrar Cita
+            Registrar Cita
           </button>
         </div>
 

@@ -149,7 +149,7 @@ const Agendar = () => {
             className="btn-registrar-cliente"
             onClick={() => navigate('/registrar-cliente')} // ajusta la ruta real cuando la tengas
           >
-            + Registrar Cliente
+            Registrar Cliente
           </button>
         </div>
 
